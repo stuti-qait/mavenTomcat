@@ -7,13 +7,14 @@ Step-2 : Add Archtype "maven-archtype-webapp"
 Step-3 : Give suitable Artifact id, Group id and package name
 
 Step-4 : Add dependencies to pom.xml
-    * Add Tomcat Maven Plugin 
+   * Add Tomcat Maven Plugin 
     use [1] http://mvnrepository.com/artifact/org.apache.tomcat.maven/tomcat7-maven-plugin
     
-    * Add Maven Servlet Library
+   * Add Maven Servlet Library
     use [2] https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api/4.0.1
-    
-    Your pom.xml file must look like
+   
+   
+   * Your pom.xml file must look like
      <dependencies>
        <dependency>
            <groupId>junit</groupId>

@@ -56,7 +56,7 @@ Step-4 : Add dependencies to pom.xml
    
 Step-5 : Go to Run < Run Configuration < Maven Build (Right click and add new file)
 
-Step-6 : Add base directory(you can browse) and set Goals : tomcat7:run -X
+Step-6 : Add base directory(you can browse) and set Goals : *tomcat7:run -X*
 
 Step-7 : Apply and Run
 

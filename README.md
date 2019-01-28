@@ -15,7 +15,8 @@ Step-4 : Add dependencies to pom.xml
    
    
    * Your pom.xml file must look like
-     <dependencies>
+    
+    <dependencies>
        <dependency>
            <groupId>junit</groupId>
            <artifactId>junit</artifactId>

@@ -1,8 +1,11 @@
 # mavenTomcat
 
 Step-1 : Create a Maven Repository
+
 Step-2 : Add Archtype "maven-archtype-webapp"
+
 Step-3 : Give suitable Artifact id, Group id and package name
+
 Step-4 : Add dependencies to pom.xml
     * Add Tomcat Maven Plugin 
     use [1] http://mvnrepository.com/artifact/org.apache.tomcat.maven/tomcat7-maven-plugin
@@ -11,7 +14,7 @@ Step-4 : Add dependencies to pom.xml
     use [2] https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api/4.0.1
     
     Your pom.xml file must look like
-     *<dependencies>
+     <dependencies>
        <dependency>
            <groupId>junit</groupId>
            <artifactId>junit</artifactId>
@@ -27,10 +30,10 @@ Step-4 : Add dependencies to pom.xml
            <scope>provided</scope>
        </dependency>
         
-   </dependencies>
+      </dependencies>
     
  
-   <build>
+      <build>
        <finalName>SimpleMavenWebApp</finalName>
        <plugins>
         
@@ -49,9 +52,12 @@ Step-4 : Add dependencies to pom.xml
                --> 
            </plugin>
        </plugins>
-   </build>*
+      </build>
    
 Step-5 : Go to Run < Run Configuration < Maven Build (Right click and add new file)
+
 Step-6 : Add base directory(you can browse) and set Goals : tomcat7:run -X
+
 Step-7 : Apply and Run
+
 Step-8 : copy the link that shows up on the console. Go to the browser and paste & run.
